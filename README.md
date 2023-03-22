@@ -4,7 +4,7 @@ It is also fully responsive
 Here is two pictures of project:
 
 # Picture 1
-<img src="picure1.PNG" alt="picure1">
+<img src="media/picure1.PNG" alt="picure1">
 
 # Picture 2
-<img src="picure2.PNG" alt="picure2">
+<img src="meida/picure2.PNG" alt="picure2">
