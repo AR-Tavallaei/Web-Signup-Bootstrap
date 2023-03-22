@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Signup Page </title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <style>
+        body {
+            background-image: linear-gradient(45deg, rgba(0, 121, 145, 1) 0%, rgba(120, 255, 214, 1) 100%);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            overflow-y: clip;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" style="padding-bottom: 300px;">
+
+        <form action="#" method="get" class="container d-block mx-auto mt-5 p-3 bg-opacity-25 bg-dark rounded-4 col-xl-4 col-lg-5 col-md-7 col-11" autocomplete="on">
+            <legend class="text-light text-center mb-4 fs-3"> Signup In Website </legend>
+
+            <div class="form-floating my-4">
+                <input type="text" class="form-control rounded-4 fs-4" id="username" placeholder="Username" required>
+                <label class="form-label" for="username"> Username </label>
+            </div>
+
+            <div class="form-floating my-4">
+                <input type="password" class="form-control rounded-4 fs-4" id="password" placeholder="Password" required autocomplete="true">
+                <label class="form-label" for="password"> Password </label>
+            </div>
+
+            <div class="form-floating my-4">
+                <input type="password" class="form-control rounded-4 fs-4" id="repeat_password" placeholder="Repeat Password" required autocomplete="true">
+                <label class="form-label" for="repeat_password"> Repeat Password </label>
+            </div>
+
+            <div class="form-floating my-4">
+                <input type="email" class="form-control rounded-4 fs-4" id="email" placeholder="Email" required>
+                <label class="form-label" for="email"> Email </label>
+            </div>
+
+            <div class="row my-3">
+                <p class="col-4 fs-5"> Gender: </p>
+                <div class="form-check col-3">
+                    <label class="form-check-label fs-5" for="maleRdb"> Male </label>
+                    <input type="radio" class="form-check-input fs-5" id="maleRdb" name="rdb" required>
+                </div>
+                <div class="form-check col-4">
+                    <label class="form-check-label fs-5" for="femaleRdb"> Female </label>
+                    <input type="radio" class="form-check-input fs-5" id="femaleRdb" name="rdb" required>
+                </div>
+            </div>
+
+            <input type="submit" class="btn btn btn-success d-block mx-auto fs-4 rounded-3">
+        </form>
+
+    </div>
+</body>
+
+</html>
